@@ -16,11 +16,11 @@ pip install -r requirements.txt
 
 GET '/api/cupcakes' - returns JSON about all cupcakes.
 
-POST '/api/cupcakes' - include flavor,size,rating and image(optional) to create cupcake and returns JSON about cupcake.
+POST '/api/cupcakes' - include flavor,size,rating and image url(optional) to create cupcake and returns JSON about cupcake.
 
 GET '/api/cupcakes/cupcake-id' - returns JSON about a specific cupcake.
 
-PATCH '/api/cupcakes/cupcake-id' - include flavor,size,rating and image(optional) to update cupcake and returns JSON about cupcake.
+PATCH '/api/cupcakes/cupcake-id' - include flavor,size,rating and image url(optional) to update cupcake and returns JSON about cupcake.
 
 DELETE '/api/cupcakes/cupcake-id' - deletes specific cupcake and returns JSON advising cupcake has been deleted.
 
